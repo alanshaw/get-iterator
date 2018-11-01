@@ -1,6 +1,6 @@
 # get-iterator
 
-[![Build Status](https://travis-ci.org/alanshaw/abortable-iterator.svg?branch=master)](https://travis-ci.org/alanshaw/get-iterator) [![dependencies Status](https://david-dm.org/alanshaw/get-iterator/status.svg)](https://david-dm.org/alanshaw/abortable-iterator) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Build Status](https://travis-ci.org/alanshaw/get-iterator.svg?branch=master)](https://travis-ci.org/alanshaw/get-iterator) [![dependencies Status](https://david-dm.org/alanshaw/get-iterator/status.svg)](https://david-dm.org/alanshaw/get-iterator) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 > Get the default iterator or async iterator for an Iterable.
 
