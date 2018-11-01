@@ -125,7 +125,7 @@ This function will throw if `obj` is not an iterable or iterator.
 
 ## Contribute
 
-Feel free to dive in! [Open an issue](https://github.com/alanshaw/abortable-iterator/issues/new) or submit PRs.
+Feel free to dive in! [Open an issue](https://github.com/alanshaw/get-iterator/issues/new) or submit PRs.
 
 ## License
 
