@@ -127,4 +127,4 @@ Feel free to dive in! [Open an issue](https://github.com/alanshaw/abortable-iter
 
 ## License
 
-[MIT](LICENSE) © Alan Shaw
+[MIT](https://github.com/alanshaw/get-iterator/blob/master/LICENSE) © Alan Shaw
