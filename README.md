@@ -97,6 +97,30 @@ console.log(it.next()) // { done: false, value: 3 }
 console.log(it.next()) // { done: true, value: undefined }
 ```
 
+## API
+
+```js
+const getIterator = require('get-iterator')
+```
+
+### `getIterator(obj)`
+
+Get the default iterator or async iterator for an Iterable. If `obj` is already an iterator (i.e. has a `next` function) return it, since it's probably already an iterator.
+
+This function will throw if `obj` is not an iterable or iterator.
+
+#### Parameters
+
+| Name | Type | Description |
+|------|------|-------------|
+| obj | [`Iterable`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterable_protocol)\|[`Iterator`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterator_protocol) | The object to extract the iterator from (may be an iterator already). |
+
+#### Returns
+
+| Type | Description |
+|------|-------------|
+| [`Iterator`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterator_protocol) | The result of calling `obj[Symbol.iterator]()` or `obj[Symbol.asyncIterator]()` or simply the passed `obj` if it is already an iterator. |
+
 ## Contribute
 
 Feel free to dive in! [Open an issue](https://github.com/alanshaw/abortable-iterator/issues/new) or submit PRs.
