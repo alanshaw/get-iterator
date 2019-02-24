@@ -1,6 +1,6 @@
 {
   "name": "get-iterator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get the default iterator or async iterator for an Iterable.",
   "main": "index.js",
   "scripts": {
