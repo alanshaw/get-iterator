@@ -30,5 +30,14 @@
   },
   "standard": {
     "parser": "babel-eslint"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanshaw/get-iterator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alanshaw/get-iterator/issues"
+  },
+  "homepage": "https://github.com/alanshaw/get-iterator#readme"
 }
