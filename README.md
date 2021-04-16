@@ -44,7 +44,7 @@ const iterable = {
   }
 }
 
-const it = getIterator(input)
+const it = getIterator(iterable)
 console.log(it.next()) // { done: false, value: 1 }
 console.log(it.next()) // { done: false, value: 2 }
 console.log(it.next()) // { done: false, value: 3 }
